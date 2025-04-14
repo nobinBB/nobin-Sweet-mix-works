@@ -1,0 +1,99 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.App {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    position: relative;
+  }
+
+}
+
+h1 {
+  color: white;
+}
+
+.gallery-title {
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 6em;
+  text-align: center;
+  background: #fff;
+  color: #fff;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: pink;
+  letter-spacing: 2px;
+  animation: fadeIn 1.5s ease-in-out;
+  -webkit-text-stroke: 0.7px #000;
+padding: 20px 0 45px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery-title {
+    top: 10%;
+  }
+
+}
+
+/* フェードインアニメーション */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.title-dis {
+  padding: 10px 0;
+  font-weight: 800;
+}
