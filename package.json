@@ -1,11 +1,12 @@
 {
-  "name": "gallery-ss",
+  "name": "nobin-Sweet-mix-works",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/nobinBB/nobin-photorealistic-AI.git",
+  "homepage": "https://github.com/nobinBB/nobin-Sweet-mix-works",
   "scripts": {
     "predeploy": "npm run build",
+    "start": "vite",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
